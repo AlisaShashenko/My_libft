@@ -6,11 +6,19 @@
 /*   By: user <user@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/05/06 17:21:35 by user              #+#    #+#             */
-/*   Updated: 2024/05/06 19:31:40 by user             ###   ########.fr       */
+/*   Updated: 2024/05/06 20:07:50 by user             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
+
+/**
+ * @brief (EN) ft_lstadd_back inserts a new element at the end of the
+ * linked list.
+ * 
+ * @param lst A pointer to a pointer to the beginning of the list.
+ * @param new Pointer to the new node to be inserted.
+ */
 
 /**
  * @brief Функция ft_lstadd_back вставляет новый элемент в конец
