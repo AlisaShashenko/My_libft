@@ -5,13 +5,12 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: user <user@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/06 19:06:07 by user              #+#    #+#             */
-/*   Updated: 2024/05/08 19:14:05 by user             ###   ########.fr       */
+/*   Created: 2024/05/10 12:44:59 by user              #+#    #+#             */
+/*   Updated: 2024/05/10 14:06:16 by user             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
-#include <stdlib.h>
 
 /**
  * @brief (EN) ft_lstdelone destroys one element in a linked list.
@@ -41,9 +40,9 @@
 		i ++;
 	}
 	return (i);
-}*/
+}
 
-/*char	*ft_strdup(const char *s1)
+char	*ft_strdup(const char *s1)
 {
 	char	*dest;
 	size_t	i;
@@ -59,9 +58,9 @@
 	}
 	dest[i] = 0;
 	return (dest);
-}*/
+}
 
-/*t_list	*ft_lstnew(void *content)
+t_list	*ft_lstnew(void *content)
 {
 	t_list	*ret;
 

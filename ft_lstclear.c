@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: user <user@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/06 19:19:58 by user              #+#    #+#             */
-/*   Updated: 2024/05/08 19:42:41 by user             ###   ########.fr       */
+/*   Created: 2024/05/10 12:45:11 by user              #+#    #+#             */
+/*   Updated: 2024/05/10 14:07:00 by user             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,9 +41,9 @@
 		i ++;
 	}
 	return (i);
-}*/
+}
 
-/*char	*ft_strdup(const char *s1)
+char	*ft_strdup(const char *s1)
 {
 	char	*dest;
 	size_t	i;
@@ -59,9 +59,9 @@
 	}
 	dest[i] = 0;
 	return (dest);
-}*/
+}
 
-/*t_list	*ft_lstnew(void *content)
+t_list	*ft_lstnew(void *content)
 {
 	t_list	*ret;
 
@@ -71,9 +71,9 @@
 	ret->content = content;
 	ret->next = 0;
 	return (ret);
-}*/
+}
 
-/*void	ft_lstadd_back(t_list **lst, t_list *new)
+void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*last_elem;
 
@@ -84,18 +84,18 @@
 		*lst = new;
 	else
 		last_elem->next = new;
-}*/
+}
 
-/*t_list	*ft_lstlast(t_list *lst)
+t_list	*ft_lstlast(t_list *lst)
 {
 	if (!lst)
 		return (NULL);
 	while (lst->next)
 		lst = lst->next;
 	return (lst);
-}*/
+}
 
-/*void	ft_lstdelone(t_list *lst, void (*del)(void *))
+void	ft_lstdelone(t_list *lst, void (*del)(void *))
 {
 	if (!lst || !del)
 		return ;
@@ -130,7 +130,7 @@ int	main(void)
 	t_list	*lst = ft_lstnew(str);
 	ft_lstadd_back(&lst, ft_lstnew(str1));
 
-	printf("After: %s %s\n", str, str1);
+	printf("%s\n%s\n", str, str1);
 
 	ft_lstclear(&lst, ft_del);
 	return (0);

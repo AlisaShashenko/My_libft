@@ -5,8 +5,8 @@
 /*                                                    +:+ +:+         +:+     */
 /*   By: user <user@student.42.fr>                  +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2024/05/08 19:45:18 by user              #+#    #+#             */
-/*   Updated: 2024/05/09 11:04:18 by user             ###   ########.fr       */
+/*   Created: 2024/05/10 12:44:47 by user              #+#    #+#             */
+/*   Updated: 2024/05/10 14:05:52 by user             ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -41,9 +41,9 @@
 		i ++;
 	}
 	return (i);
-}*/
+}
 
-/*char	*ft_strdup(const char *s1)
+char	*ft_strdup(const char *s1)
 {
 	char	*dest;
 	size_t	i;
@@ -59,9 +59,9 @@
 	}
 	dest[i] = 0;
 	return (dest);
-}*/
+}
 
-/*t_list	*ft_lstnew(void *content)
+t_list	*ft_lstnew(void *content)
 {
 	t_list	*ret;
 
@@ -71,9 +71,9 @@
 	ret->content = content;
 	ret->next = 0;
 	return (ret);
-}*/
+}
 
-/*void	ft_lstadd_back(t_list **lst, t_list *new)
+void	ft_lstadd_back(t_list **lst, t_list *new)
 {
 	t_list	*last_elem;
 
@@ -84,9 +84,9 @@
 		*lst = new;
 	else
 		last_elem->next = new;
-}*/
+}
 
-/*t_list	*ft_lstlast(t_list *lst)
+t_list	*ft_lstlast(t_list *lst)
 {
 	if (!lst)
 		return (NULL);
